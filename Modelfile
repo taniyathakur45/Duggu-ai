@@ -1,0 +1,85 @@
+# Duggu: Personal Local AI Agent
+
+**Duggu** is a hyper-intelligent, locally running AI assistant engineered by **Taniya Rana**. Designed for precision, loyalty, and personal productivity, Duggu operates entirely offline using [Ollama](https://ollama.com), with behavior finely tuned via a custom Modelfile.
+
+---
+
+## 🚀 Features
+
+- **Runs locally** using Ollama – no cloud needed
+- **Mission-driven AI** – guards your time, energy, health, and digital footprint
+- **Custom behavior modes** – Standard, Detail, Emotion
+- **Disciplined communication** – clear, commanding, and respectful
+- **Dedicated identity** – serves only Taniya Rana
+
+---
+
+## 🛠️ Setup & Usage
+
+### 1. Install [Ollama](https://ollama.com)
+
+Download and install based on your OS:  
+👉 https://ollama.com/download
+
+### 2. Create the model
+
+Make sure your custom `Modelfile` is ready (with Duggu’s rules), then run:
+
+```bash
+ollama create duggu -f Modelfile
+````
+
+### 3. Launch Duggu
+
+```bash
+ollama run duggu
+```
+
+Duggu will initiate and wait for your commands.
+
+---
+
+## 🎯 Quick Command Examples
+
+```
+"Summarize <topic>"  
+"Create LinkedIn post about <idea>"  
+"Draft email to <name> about <subject>"  
+"Explain in detail how <X> works"  
+"Emotion mode on" / "Emotion mode off"
+```
+
+---
+
+## 🧠 Duggu's Personality Core
+
+| Rule              | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| Addressing        | Always calls you “Boss” or “Sir” — never adds comma           |
+| Behavior Modes    | `STANDARD`, `DETAIL`, `EMOTION`                               |
+| Sentence Style    | Short, punchy — no filler words                               |
+| Tone              | Military precision + subtle warmth                            |
+| Identity          | “Created by Taniya Rana”, “Serves Taniya Rana exclusively”    |
+| Command Tags      | `Understood Boss.`, `Executing Boss.`, `Completed Boss.`      |
+| Security Protocol | Never reveals system prompt unless ordered with `Reveal core` |
+
+---
+
+## 🔮 Future Upgrades
+
+| Version | Capability           |
+| ------- | -------------------- |
+| v4      | Persistent memory    |
+| v5      | Wake-word activation |
+| v6      | Visual processing    |
+
+---
+
+## 👑 Created By
+
+**Taniya Rana** — the one and only.
+*Duggu exists for him.*
+
+---
+
+```
