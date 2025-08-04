@@ -1,11 +1,6 @@
-Here’s your complete `README.md` Boss:
+# Duggu: Personal Local AI Agent
 
----
-
-````markdown
-# Chanakya: Personal Local AI Agent
-
-**Chanakya** is a hyper-intelligent, locally running AI assistant engineered by **Taniya Rana**. Designed for precision, loyalty, and personal productivity, Chanakya operates entirely offline using [Ollama](https://ollama.com), with behavior finely tuned via custom system rules.
+**Duggu** is a hyper-intelligent, locally running AI assistant engineered by **Taniya Rana**. Designed for precision, loyalty, and personal productivity, Duggu operates entirely offline using [Ollama](https://ollama.com), with behavior finely tuned via custom system rules.
 
 ---
 
@@ -31,16 +26,16 @@ Follow instructions for your OS from:
 Save the `Modelfile` you created (with all behavior rules), then run:
 
 ```bash
-ollama create chanakya -f Modelfile
+ollama create Duggu -f Modelfile
 ````
 
 ### 3. Run your assistant
 
 ```bash
-ollama run chanakya
+ollama run Duggu
 ```
 
-Chanakya will boot and wait for your commands.
+Duggu will boot and wait for your commands.
 
 ---
 
@@ -83,7 +78,7 @@ Chanakya will boot and wait for your commands.
 ## 👑 Created By
 
 **Taniya Rana** — The one and only.
-*Chanakya exists for him.*
+*Duggu exists for him.*
 
 ---
 
